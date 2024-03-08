@@ -20,7 +20,6 @@ export default class EventoDAO{
             evento.id = resultados.insertId; 
         }
     }
-
     async atualizar(evento){
         if (evento instanceof Evento){
             const conexao = await conectar();
@@ -40,7 +39,6 @@ export default class EventoDAO{
             await conexao.execute(sql,parametros);
         }
     }
-
     async excluir(evento){
         if (evento instanceof Evento){
             const conexao = await conectar();
