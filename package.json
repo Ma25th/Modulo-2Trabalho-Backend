@@ -1,0 +1,21 @@
+{
+  "name": "trabalho-2-pi-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ma25th/Modulo-2Trabalho-Backend.git"
+  },
+  "author": "Matheus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ma25th/Modulo-2Trabalho-Backend/issues"
+  },
+  "homepage": "https://github.com/Ma25th/Modulo-2Trabalho-Backend#readme"
+}
