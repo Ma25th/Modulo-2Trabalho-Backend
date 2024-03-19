@@ -1,4 +1,4 @@
-import EventoDAO from "../Persistencia/eventoDAO.js";
+import EventoDAO from "../Persistencia/EventoDAO.js";
 export default class Evento {
     #id;
     #Sobre_Evento;
